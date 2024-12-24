@@ -50,5 +50,17 @@ namespace appExercises03.Exercises
             double result = width * height;
             PrintMessage(result.ToString() );
         }
+
+        //*Convert time
+        public static void HoursToMinutes(double hours)
+        {
+            double result = hours * 60;
+            PrintMessage(result.ToString());
+        }
+        public static void MinutesToHours(double minutes)
+        {
+            double result = minutes / 60;
+            PrintMessage(result.ToString());
+        }
     }
 }
