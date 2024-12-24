@@ -4,9 +4,6 @@ using appExercises03.Exercises;
 Console.WriteLine("Hello, World!");
 
 //Convertir 212 F a celsius
-Problems.FahrenheitToCelsius(-40);
-Problems.KelvinToCelsius(50);
-Problems.CelsiusToFa(-40);
-
+Problems.RectangleArea(20,20);
 //Evitar que se cierre el programa
-Console.ReadKey();
+//Console.ReadKey();
